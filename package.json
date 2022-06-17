@@ -1,0 +1,19 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "description": "First VitePress Application",
+  "main": "index.js",
+  "repository": "https://github.com/GeonwooVincentKim/VitePress_New_Application",
+  "author": "GeonwooVincentKim",
+  "license": "MIT",
+  "private": "false",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress buld docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
