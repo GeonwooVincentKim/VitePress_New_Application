@@ -4,3 +4,4 @@
 [bar - three](../bar/three) <!-- you can omit extention -->
 [bar - three](../bar/three.md) <!-- you can append .md -->
 [bar - four](../bar/four.html) <!-- or you can append .html -->
+[bar - five](../bar/five.htnl)
