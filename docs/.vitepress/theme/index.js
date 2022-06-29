@@ -2,6 +2,7 @@ import Layout from './Layout.vue';
 import Theme from 'awesome-vitepress-theme';
 
 import DefaultTheme from 'vitepress/theme';
+import './custom.css';
 
 export default {
     // Root component to wrap each page
