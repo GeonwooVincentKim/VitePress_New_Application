@@ -21,4 +21,14 @@ export default {
     ehhanceApp({ app, router, siteDate }) {
         app.compoonent('MyGlobalComponent');
     },
+
+    /*
+        Second way
+        -> Render Function
+    */
+    Layout() {
+        return h(DefaultTheme.Layout, null, {
+            'aside-outline-before': () => h(MyComponent),
+        });
+    },
 };
