@@ -1,4 +1,13 @@
 export default {
-    title: 'VitePress',
-    description: 'Just Playing around.',
+    /*
+        title => themeConfig - siteTitle    
+    */
+    // title: 'VitePress',
+    // titleTemplate: 'Vite & Vue powered static site generator',
+    // description: 'Just Playing around.',
+
+    themeConfig: {
+        siteTitle: 'My Custom Title',
+        logo: '',
+    },
 };

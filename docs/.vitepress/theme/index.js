@@ -6,10 +6,12 @@ import DefaultTheme from 'vitepress/theme';
 import './custom.css';
 
 export default {
-    // Root component to wrap each page
     ...DefaultTheme,
+
+    // Root component to wrap each page
     Layout: MyLayout,
     // Theme,
+    // Theme: DefaultTheme,
 
     // This is a Vue 3 functional Component
     NotFound: () => 'custom 404',
