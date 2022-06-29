@@ -19,14 +19,14 @@
 */
 import DefaultTheme from 'vitepress/theme'
 
-const { layout } = DefaultTheme
+const { Layout } = DefaultTheme
 
-export default {
-    name: 'MyLayout',
-    data () {
-        return {
+// export default {
+//     name: 'MyLayout',
+//     data () {
+//         return {
             
-        }    
-    },
-}
+//         }    
+//     },
+// }
 </script>

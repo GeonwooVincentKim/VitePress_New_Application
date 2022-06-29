@@ -1,14 +1,15 @@
-import Layout from './Layout.vue';
-import Theme from 'awesome-vitepress-theme';
+// import Layout from './Layout.vue';
+// import Theme from 'awesome-vitepress-theme';
+import MyLayout from './MyLayout.vue';
 
 import DefaultTheme from 'vitepress/theme';
 import './custom.css';
 
 export default {
     // Root component to wrap each page
-    Layout,
-    Theme,
     ...DefaultTheme,
+    Layout: MyLayout,
+    // Theme,
 
     // This is a Vue 3 functional Component
     NotFound: () => 'custom 404',
@@ -19,6 +20,7 @@ export default {
         siteDate -> A `ref` of current site-level metadata
     */
     ehhanceApp({ app, router, siteDate }) {
+        console.log('Check is work -> ');
         app.compoonent('MyGlobalComponent');
     },
 
@@ -26,9 +28,9 @@ export default {
         Second way
         -> Render Function
     */
-    Layout() {
-        return h(DefaultTheme.Layout, null, {
-            'aside-outline-before': () => h(MyComponent),
-        });
-    },
+    // Layout() {
+    //     return h(DefaultTheme.Layout, null, {
+    //         'aside-outline-before': () => h(MyComponent),
+    //     });
+    // },
 };
