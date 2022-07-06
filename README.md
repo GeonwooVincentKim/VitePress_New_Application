@@ -25,3 +25,12 @@ yarn docs:build
 ```code
 yarn docs:dev
 ```
+
+
+II. Error 
+
+<p style="font-size: 15px;"><strong>[ERR_REQUIRE_ESM - Error]</strong></p>
+
+```code
+
+```
