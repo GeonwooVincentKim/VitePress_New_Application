@@ -31,6 +31,4 @@ II. Error
 
 <p style="font-size: 15px;"><strong>[ERR_REQUIRE_ESM - Error]</strong></p>
 
-```code
-
-```
+```code```
