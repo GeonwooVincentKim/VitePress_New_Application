@@ -23,7 +23,7 @@ export default {
     */
     ehhanceApp({ app, router, siteDate }) {
         console.log('Check is work -> ');
-        app.compoonent('MyGlobalComponent');
+        app.component('MyGlobalComponent');
     },
 
     /*
